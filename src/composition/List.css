@@ -1,0 +1,42 @@
+.List {
+    min-width: 218px;
+  }
+  
+  .List:not(:first-of-type) {
+    margin-left: 20px;
+  }
+  
+  .List-header h2,
+  .List-cards h3 {
+    margin: 0;
+  }
+  
+  .List-header h2 {
+    font-size: 18px;
+    padding: 10px 8px 8px;
+    color: #470a29;
+  }
+  
+  .List-header,
+  .List-cards {
+    background-color: #e9e9e9;
+    padding: 0 6px 4px;
+  }
+  
+  .List-header {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+  
+  .List-cards {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 4px;
+    padding-bottom: 10px;
+    max-height: calc(100vh - 102px);
+    overflow: auto;
+  }
+
+  .add-new {
+      margin-top: 10px;
+      border: none;
+  }
